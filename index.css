@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 33%);
+}
+
+.gameBox {
+    max-width: 500px;
+    background-color: hsl(180, 100%, 87%);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px hsl(180, 100%, 80%);
+}
+
+#heading,
+#resultDisplay {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    border: none;
+    margin: 8px;
+    font-size: 2.5rem;
+    background-color: hsl(34, 100%, 90%);
+}
+
+button:hover {
+    border: 2px solid tomato;
+}
+
+button:active {
+    background-color: hsl(34, 100%, 80%);
+}
+
+.green {
+    color: hsl(120, 88%, 36%);
+}
+
+.red {
+    color: hsl(0, 64%, 52%);
+}
